@@ -2,9 +2,9 @@ import math
 def detSquare(num):
     if num < 0:
         print("False")
-    n = math.sqrt(num)
-    if num % n == 0:
-        print("true") 
+
+    root = int(number**0.5)
+    return root * root == number  
     
 
 detSquare(-1)
