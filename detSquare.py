@@ -5,6 +5,8 @@ def detSquare(num):
 
     root = num**0.5
     return root * root == num
+    else:
+        print("true")
     
 
-detSquare(-1)
+detSquare(4)
